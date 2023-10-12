@@ -56,8 +56,8 @@ Revisa el diccionario e imprime el nombre de cada usuario y su sabor de helado a
 */
 Dictionary<string, string> DiccionarioHelados = new Dictionary<string, string>();
 Random rand = new Random();
-DiccionarioHelados.Add("Nombre", nombres[rand.Next(0,5)]);
-DiccionarioHelados.Add("Helado", SaboresHelados[rand.Next(0,6)]);
+DiccionarioHelados.Add("Nombre", nombres[rand.Next(0,4)]);
+DiccionarioHelados.Add("Helado", SaboresHelados[rand.Next(0,5)]);
 foreach (var element in DiccionarioHelados)
 {
     Console.WriteLine(element.Key + " - " + element.Value);
